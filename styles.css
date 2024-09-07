@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+  }
+
+  .title{
+    color:#e97100;
+  }
+
+  .battle-field{
+    display: flex;
+    margin-top: 1.5em;
+    gap: 1em;
+  }
+  .btn-action{
+    background-color: #b11716;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .btn-action:disabled{
+    background-color: grey;
+    cursor: default;
+  }
+  #inimigo, #resultado, #heroiDiv {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+
+
+  /* Erros e alertas */
+  .alerta-inicial{
+    background-color: #ffeaa7;
+    color: #000000;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .erro-busca{
+    background-color: #ff7675;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 8px;
+  }

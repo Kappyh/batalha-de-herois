@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Batalha de Heróis</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="title">Batalha de Heróis</h1>
+  <div>
+    <h2>Regras do jogo</h2>
+    <ol>
+        <li>Escolha uma classe de heroi para enfrentar o monstro atual.</li>
+        <li>Você tem direito a <strong>2 usos</strong> por heroi</li>
+        <li>Cada monstro aparece apenas <strong>1 vez.</strong></li>
+    </ol>
+    <p>Mochila com recompensas: </p>
+    <div>
+        <p>Vitórias: <span id="contador-vitorias"></span></p>
+        <p>Recompensas recebidas: </p><ul id="recompensas-recebidas"></ul>
+    </div>
+  </div>
+
+  <label for="classeHeroi">Escolha uma classe de herói ideal para a batalha:</label>
+  <input type="text" id="buscar-heroi" placeholder="Ex: Mago">
+  <button id="buscar">BUSCAR</button>
+
+  <div class="battle-field">
+      <div id="heroiDiv" class="heroi-encontrado">
+      </div>
+      <button id="batalhar" class="btn-action">BATALHAR</button>
+      <div id="inimigo">
+        <div class="loot"></div>
+      </div>
+  </div>
+
+
+  <div id="resultado">
+  </div>
+
+  <script src="inimigos.js"></script>
+  <script src="herois.js"></script>
+  <script src="busca.js"></script>
+  <script src="mecanica-batalha.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
