@@ -1,0 +1,14 @@
+{
+  "name": "batalha-de-herois",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:Kappyh/batalha-de-herois.git",
+  "author": "Gabriela Mendes <contato@gabrielamendes.dev>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node live-server.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
